@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meteo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <h1>Meteo App</h1>
+    </nav>
+    <div id="container">
+      <form>
+        <input type="text" placeholder="Inserisci la località" />
+        <button>Cerca</button>
+      </form>
+      <div id="degree-container">
+        <p id="degree"></p>
+        <p id="symbol"></p>
+      </div>
+      <p id="city"></p>
+      <ul>
+        <li id="umidity">Umidità</li>
+        <li id="description">Descrizione</li>
+        <li id="sunrise">Alba</li>
+        <li id="sunset">Tramonto</li>
+      </ul>
+    </div>
+
+    <script src="./dest/app.js" defer></script>
+    <script src="./dest/data.js"></script>
+    <script src="./dest/interface.js"></script>
+  </body>
+</html>
